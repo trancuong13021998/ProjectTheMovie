@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WidthMatchParent_HeightWrapContent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        style="@style/WidthWrapContent_HeightMatchParent"
+        android:background="@drawable/custom_dong_phim">
+
+        <ImageView
+            android:id="@+id/img_activity_detail_movie_avatar"
+            android:layout_width="@dimen/width_120dp"
+            android:layout_height="@dimen/height_180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txt_activity_detail_movie_Name"
+        style="@style/ItemMovieText"
+        android:text="@string/txt_ten_phim"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/txt_size_16sp" />
+
+    <TextView
+        android:id="@+id/txt_activity_detail_movie_time"
+        style="@style/ItemMovieText"
+        android:text="@string/txt_ten_phim"
+        android:textColor="@color/colorGrayDark"
+        android:textSize="@dimen/txt_size_13sp" />
+
+</LinearLayout>

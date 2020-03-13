@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorGray"
+   style="@style/MatchParent"
+    android:weightSum="10">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_activity_main"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            >
+            <TextView
+                style="@style/MatchParent"
+                android:text="@string/title_main"
+                android:gravity="center"
+                android:textColor="@color/colorRed"
+                android:textSize="@dimen/txt_size_24sp"
+                android:layout_marginRight="@dimen/margin_50dp"
+                android:layout_marginLeft="@dimen/margin_50dp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+         <com.google.android.material.tabs.TabLayout
+             android:id="@+id/tab_layout_activity_main"
+             style="@style/WidthMatchParent_HeightWrapContent"
+             app:tabIndicatorColor="@color/cardview_dark_background"
+             app:tabIndicatorHeight="1dp"
+             app:tabGravity="fill"
+             tools:ignore="PrivateResource">
+         </com.google.android.material.tabs.TabLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_page_activity_main"
+            style="@style/MatchParent">
+        </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

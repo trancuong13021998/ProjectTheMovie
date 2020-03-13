@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    margin-->
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+<!--    padding-->
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+    <dimen name="padding_left_125dp">125dp</dimen>
+    <dimen name="padding_right_10dp">10dp</dimen>
+<!--    width - height-->
+    <dimen name="width_100dp">100dp</dimen>
+    <dimen name="height_120dp">120dp</dimen>
+<!--    text_size-->
+    <dimen name="txt_size_13sp">13sp</dimen>
+    <dimen name="txt_size_16sp">16sp</dimen>
+    <dimen name="txt_size_20sp">20sp</dimen>
+    <dimen name="txt_size_24sp">24sp</dimen>
+    <dimen name="padding_left_135dp">135dp</dimen>
+    <dimen name="width_120dp">120dp</dimen>
+    <dimen name="height_180dp">180dp</dimen>
+</resources>

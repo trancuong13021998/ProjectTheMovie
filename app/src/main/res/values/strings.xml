@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TheMovieDBApplication</string>
+    <string name="title_main">The Movie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_ghi_chu">Chỉ dành cho người trên 18 tuổi</string>
+    <string name="tb_text_title">Chi tiết phim</string>
+    <string name="txt_ngay_khoi_chieu">Ngày khởi chiếu</string>
+    <string name="txt_time">Thời lượng</string>
+    <string name="txt_dao_dien">Đạo diễn</string>
+    <string name="txt_dien_vien">Diễn Viên</string>
+    <string name="txt_ten_phim">Ten phim</string>
+    <string name="txt_the_loai">Thể Loại</string>
+    <string name="txt_mo_ta">mo ta</string>
+</resources>

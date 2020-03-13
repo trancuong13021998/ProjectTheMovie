@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchParent"
+    tools:context=".main.movies.MovieFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcl_fragment_movie"
+        android:padding="@dimen/padding_10dp"
+        style="@style/MatchParent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>

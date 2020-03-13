@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchParent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_detail_movie"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/tb_text_title"
+        app:titleTextColor="@color/colorBlack">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        style="@style/MatchParent"
+        android:background="@color/colorWhite"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            style="@style/MatchParent"
+            android:orientation="vertical">
+
+            <FrameLayout style="@style/MatchParent">
+
+                <ImageView
+                    android:id="@+id/img_activity_detail_movie_advertisement"
+                    style="@style/WidthMatchParent_HeightWrapContent"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher">
+
+                </ImageView>
+
+                <LinearLayout
+                    style="@style/WidthMatchParent_HeightWrapContent"
+                    android:layout_marginTop="360dp"
+                    android:background="@color/colorWhite"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="16dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/txt_activity_detail_movie_Name"
+                        style="@style/WidthMatchParent_HeightWrapContent"
+                        android:paddingLeft="@dimen/padding_left_125dp"
+                        android:paddingRight="@dimen/padding_right_10dp"
+                        android:text="@string/txt_ten_phim"
+                        android:textSize="@dimen/txt_size_20sp" />
+
+                    <TextView
+                        style="@style/WidthMatchParent_HeightWrapContent"
+                        android:layout_marginTop="@dimen/margin_5dp"
+                        android:paddingLeft="@dimen/padding_left_135dp"
+                        android:paddingRight="@dimen/padding_right_10dp"
+                        android:textSize="@dimen/txt_size_13sp" />
+
+                    <TableLayout
+
+                        style="@style/WidthMatchParent_HeightWrapContent"
+                        android:layout_marginTop="@dimen/margin_5dp"
+                        android:background="@color/colorWhite">
+
+                        <TableRow style="@style/ActivityDetailMovieTableRow">
+                            <TextView
+                                style="@style/ActivityDetailMovieLabelTable"
+                                android:text="@string/txt_dao_dien" />
+                            <TextView
+                                style="@style/ActivityDetailMovieInforText"
+                                android:text="" />
+                        </TableRow>
+
+                        <TableRow
+                            style="@style/ActivityDetailMovieTableRow">
+                            <TextView
+                                style="@style/ActivityDetailMovieLabelTable"
+                                android:text="@string/txt_dien_vien" />
+                            <TextView
+                                style="@style/ActivityDetailMovieInforText"
+                                android:text="" />
+                        </TableRow>
+
+                        <TableRow style="@style/ActivityDetailMovieTableRow">
+                            <TextView
+                                style="@style/ActivityDetailMovieLabelTable"
+                                android:text="@string/txt_the_loai" />
+                            <TextView
+                                style="@style/ActivityDetailMovieInforText"
+                                android:text="" />
+                        </TableRow>
+
+                        <TableRow style="@style/ActivityDetailMovieTableRow">
+                            <TextView
+                                style="@style/ActivityDetailMovieLabelTable"
+                                android:text="@string/txt_time" />
+                            <TextView
+                                android:id="@+id/txt_activity_detail_movie_time"
+                                style="@style/ActivityDetailMovieInforText"
+                                />
+                        </TableRow>
+
+                        <TableRow style="@style/ActivityDetailMovieTableRow">
+
+                            <TextView
+                                style="@style/ActivityDetailMovieLabelTable"
+                                android:text="@string/txt_ngay_khoi_chieu" />
+
+                            <TextView
+                                style="@style/ActivityDetailMovieInforText"
+                                android:text="" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <TextView
+                        android:id="@+id/txt_activity_detail_movie_description"
+                        style="@style/WidthMatchParent_HeightWrapContent"
+                        android:padding="@dimen/padding_10dp"
+                        android:text="@string/txt_mo_ta"
+                        android:textSize="@dimen/txt_size_16sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_activity_detail_movie_avatar"
+                    android:layout_width="115dp"
+                    android:layout_height="175dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="245dp"
+                    android:background="@drawable/custom_dong_phim"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
